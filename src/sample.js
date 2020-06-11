@@ -1,12 +1,10 @@
-"use strict";
-
-const greeting = 'hello';
-console.log(`${greting} world!`);
+const greeting = 'hello'
+console.log(`${greeting} world!`)
 
 const name = 'John Doe'
-typeof name === 'strng'
+typeof name === 'string'
 
-if (!'serviceWorker' in navigator) {
+if (!('serviceWorker' in navigator)) {
   // old browser :-(
 }
 
